@@ -18,7 +18,7 @@ public class SauceDemoTest {
         driver = new ChromeDriver();
         // How to call driver methods?
         // URL: www.saucedemo.com
-        driver.get("www.saucedemo.com");
+        driver.get("https://www.saucedemo.com");
         // Need to find element, name input field?
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         // hello -> char sequence h e l l o;
