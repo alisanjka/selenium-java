@@ -24,9 +24,6 @@ public class LoginPage {
     @FindBy(how = How.ID, id = "login-button")
     private WebElement inputFieldLogin;
 
-
-
-
     public void authorize(String username, String password) {
         //Implement these methods;
         inputFieldUsername.sendKeys(username);
